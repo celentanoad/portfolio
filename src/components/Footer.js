@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         Copyright &copy; Gatsby-starter-grayscale 2019
       </div>
-        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" className="text-white-50">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" className="text-white-50"> www.flaticon.com</a>
     </footer>
   );
 }

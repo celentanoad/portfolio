@@ -35,17 +35,46 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section id="about" className="about-section text-center">
+    <section id="skills" className="about-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">My Story</h2>
+            <h2 className="text-white mb-4">Skills</h2>
+            <div className="row">
+              <div className="col">
+              <h4 className="text-white-50"> Javascript</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> Node.js</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> HTML/CSS</h4>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+              <h4 className="text-white-50"> React.js</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> MongoDB</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> Express</h4>
+              </div>
+            </div>  
+            <div className="row">
+              <div className="col">
+              <h4 className="text-white-50"> Python</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> Django</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> Github</h4>
+              </div>
+            </div>
             <p className="text-white-50">
-            I am a software developer who enjoys finding solutions 
-            to problems and seeking out answers from different perspectives. 
-            Coming from a background in social work, I am passionate about improving efficiency and 
-            motivated by making things work for people. I strive to always 
-            learn more through communicating with others and working with a team. 
+            
             </p>
           </div>
         </div>
@@ -70,10 +99,9 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white"><a href="">Steam Collector</a></h4>
+                  <h4 className="text-white"><a href="https://steam-collector.herokuapp.com/" className="text-white-50" target="_blank">Steam Collector</a></h4>
                   <p className="mb-0 text-white-50">
-                  Steam Collector is a simple MERN stack website to keep track of your Steam games. It can be overwhelming to look at your Steam library and have so many choices of games to play. Steam Collector makes it easy to see the games you have not played yet when you want to try something new, or which games you currently playing or already completed.
-
+                  MongoDB | Express | React | Node.js
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -90,11 +118,9 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white"><a href="">Hyrule Stays</a></h4>
+                  <h4 className="text-white"><a href="https://hyrule-stays.herokuapp.com/" className="text-white-50" target="_blank">Hyrule Stays</a></h4>
                   <p className="mb-0 text-white-50">
-                  Hyrule Stays is a campsite/stable review site based on the world of Hyrule from the Legend of Zelda video game series. 
-              Hyrule Stays is designed for travelers to add, rate, and review various places they have stayed around Hyrule.
-              This site was built using Javascript, HTML, CSS, Node,js, Express, and MongoDB.
+                    Javascript | Node.js | MongoDB | OAuth
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -111,10 +137,9 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4><a href="https://thebestbarcade.herokuapp.com/">The Best Barcade</a></h4>
+              <h4><a href="https://thebestbarcade.herokuapp.com/" target="_blank">The Best Barcade</a></h4>
               <p className="text-black-50 mb-0">
-                The Best Barcade is a way to keep track of the games we love and the local haunts that have them. 
-                This site was built with Python and Django.
+                Python | Django
               </p>
             </div>
           </div>
@@ -127,11 +152,28 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4><a href="https://celentanoad.github.io/Threes/">Threes</a></h4>
+              <h4><a href="https://celentanoad.github.io/Threes/" target="_blank">Threes</a></h4>
               <p className="text-black-50 mb-0">
-              This web-based version of the gambling dice game Threes was built using HTML, CSS, and Javascript.
+              Javascript | HTML | CSS
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" className="about-section text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-white mb-4">My Story</h2>
+            <p className="text-white-50">
+            I am a software developer who enjoys finding solutions 
+            to problems and seeking out answers from different perspectives. 
+            Coming from a background in social work, I am passionate about improving efficiency and 
+            motivated by making things work for people. I strive to always 
+            learn more through communicating with others and working with a team. 
+            </p>
           </div>
         </div>
       </div>
