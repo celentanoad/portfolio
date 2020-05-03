@@ -1,4 +1,4 @@
-# gatsby-starter-grayscale
+# Personal Portfolio made with gatsby-starter-grayscale
 
 Gatsby.js V2 starter template based on Grayscale by startbootstrap
 

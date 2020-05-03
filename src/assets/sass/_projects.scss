@@ -4,7 +4,7 @@
     padding: 2rem;
     @media (min-width: 992px) {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
+      border-left: 0.5rem solid #1e485b;
     }
   }
   .project-text {
@@ -13,7 +13,7 @@
     @media (min-width: 992px) {
       padding: 5rem;
       hr {
-        border-color: $primary;
+        border-color: #1e485b;
         border-width: .25rem;
         width: 30%;
       }

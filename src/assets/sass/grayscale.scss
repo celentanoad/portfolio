@@ -19,16 +19,16 @@ body {
 }
 
 a {
-  color: $primary;
+  color: #1e485b;
   &:focus,
   &:hover {
     text-decoration: none;
-    color: darken($primary, 20%);
+    color: darken(#1e485b, 20%);
   }
 }
 
 .bg-black {
-  background-color: $black !important;
+  background-color: rgb(143, 143, 143) !important;
 }
 
 .bg-primary {

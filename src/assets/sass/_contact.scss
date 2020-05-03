@@ -2,7 +2,7 @@
   padding: 5rem 0 0;
   .card {
     border: 0;
-    border-bottom: 0.25rem solid $primary;
+    border-bottom: 0.25rem solid #1e485b;
     h4 {
       font-size: 0.8rem;
       font-family: 'Varela Round';
@@ -10,7 +10,7 @@
       letter-spacing: 0.15rem;
     }
     hr {
-      border-color: $primary;
+      border-color: #1e485b;
       border-width: 0.25rem;
       width: 3rem;
     }
