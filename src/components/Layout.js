@@ -26,7 +26,7 @@ class Layout extends Component {
               meta={[
                 { name: 'description', content: 'Grayscale' },
                 { name: 'keywords', content: 'site, web' },
-                { name: 'image', property='og:image', content='https://i.imgur.com/7s6ufNh.png'},
+                { name: 'image', property: 'og:image', content: 'https://i.imgur.com/7s6ufNh.png'},
               ]}
             >
               <html lang="en" prefix="og: http://ogp.me/ns#"/>
