@@ -23,10 +23,11 @@ class Layout extends Component {
           <>
             <Helmet
               title={data.site.siteMetadata.title}
+              
               meta={[
                 { name: 'description', content: 'Grayscale' },
                 { name: 'keywords', content: 'site, web' },
-                { name: 'image', property: 'og:image', content: 'https://i.imgur.com/7s6ufNh.png'},
+                { property: 'og:image', content: 'https://i.imgur.com/7s6ufNh.png'},
               ]}
             >
               <html lang="en" prefix="og: http://ogp.me/ns#"/>
