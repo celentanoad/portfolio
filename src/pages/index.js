@@ -27,13 +27,30 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
-              About
+            <a href="#social" className="btn btn-primary">
+              Get In Touch
             </a>
           </Scroll>
         </div>
       </div>
     </header>
+
+    <section id="about" className="about-section text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mx-auto">
+            <h2 className="text-white mb-4">My Story</h2>
+            <p className="text-white-50">
+            I am a software developer who enjoys finding solutions 
+            to problems and seeking out answers from different perspectives. 
+            Coming from a background in social work, I am passionate about improving efficiency and 
+            motivated by making things work for people. I strive to always 
+            learn more through communicating with others and working with a team. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="skills" className="about-section text-center">
       <div className="container">
@@ -162,26 +179,12 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="about" className="about-section text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">My Story</h2>
-            <p className="text-white-50">
-            I am a software developer who enjoys finding solutions 
-            to problems and seeking out answers from different perspectives. 
-            Coming from a background in social work, I am passionate about improving efficiency and 
-            motivated by making things work for people. I strive to always 
-            learn more through communicating with others and working with a team. 
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <Subscribe />
 
-    <SocialLinks />
+    < section id="social">
+      <SocialLinks />
+    </section>
+
     <Footer />
   </Layout>
 );
