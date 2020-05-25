@@ -25,8 +25,8 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               
               meta={[
-                { name: 'description', content: 'Grayscale' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Alanna Celentano portfolio' },
+                { name: 'keywords', content: 'Alanna Celentano, portfolio' },
                 { property: 'og:image', content: 'https://i.imgur.com/7s6ufNh.png'},
               ]}
             >
