@@ -26,7 +26,7 @@ class Layout extends Component {
               
               meta={[
                 { name: 'description', content: 'Alanna Celentano portfolio' },
-                { name: 'keywords', content: 'Alanna Celentano, portfolio' },
+                { name: 'keywords', content: 'Alanna Celentano, portfolio, web developer, software engineer' },
                 { property: 'og:image', content: 'https://i.imgur.com/7s6ufNh.png'},
               ]}
             >

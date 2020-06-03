@@ -26,7 +26,7 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="about">
+          <Scroll type="id" element="social">
             <a href="#social" className="btn btn-primary">
               Get In Touch
             </a>
@@ -59,40 +59,48 @@ const IndexPage = () => (
             <h2 className="text-white mb-4">Skills</h2>
             <div className="row">
               <div className="col">
-              <h4 className="text-white-50"> Javascript</h4>
+                <h4 className="text-white-50"> Javascript</h4>
               </div>
               <div className="col">
-              <h4 className="text-white-50"> Node.js</h4>
+                <h4 className="text-white-50"> Node.js</h4>
               </div>
               <div className="col">
-              <h4 className="text-white-50"> HTML/CSS</h4>
+                <h4 className="text-white-50"> HTML/CSS</h4>
               </div>
             </div>
             <div className="row">
               <div className="col">
-              <h4 className="text-white-50"> React.js</h4>
+                <h4 className="text-white-50"> React.js</h4>
               </div>
               <div className="col">
-              <h4 className="text-white-50"> MongoDB</h4>
+                <h4 className="text-white-50"> MongoDB</h4>
               </div>
               <div className="col">
-              <h4 className="text-white-50"> Express</h4>
+                <h4 className="text-white-50"> Express</h4>
               </div>
             </div>  
             <div className="row">
               <div className="col">
-              <h4 className="text-white-50"> Python</h4>
+                <h4 className="text-white-50"> Python</h4>
               </div>
               <div className="col">
-              <h4 className="text-white-50"> Django</h4>
+                <h4 className="text-white-50"> Django</h4>
               </div>
               <div className="col">
-              <h4 className="text-white-50"> Github</h4>
+                <h4 className="text-white-50"> SQL</h4>
               </div>
             </div>
-            <p className="text-white-50">
-            
-            </p>
+            <div className="row">
+              <div className="col">
+              <h4 className="text-white-50"> OAuth</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> JWT</h4>
+              </div>
+              <div className="col">
+              <h4 className="text-white-50"> GitHub</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
